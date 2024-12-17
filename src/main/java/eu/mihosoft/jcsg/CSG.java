@@ -91,7 +91,7 @@ public class CSG {
     private List<Polygon> polygons;
     private static OptType defaultOptType = OptType.NONE;
     private OptType optType = null;
-    private PropertyStorage storage;
+    public PropertyStorage storage;
 
     private CSG() {
         storage = new PropertyStorage();
@@ -1158,7 +1158,7 @@ public class CSG {
     /**
      * @return the optType
      */
-    private OptType getOptType() {
+    public OptType getOptType() {
         return optType != null ? optType : defaultOptType;
     }
 
