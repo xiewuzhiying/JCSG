@@ -67,8 +67,8 @@ dependencies {
     implementation 'eu.mihosoft.vvecmath:vvecmath:0.3.8'
     implementation 'eu.mihosoft.vvecmath:vvecmath:0.3.8:sources'
     implementation 'org.slf4j:slf4j-simple:1.6.1'
-    implementation 'org.joml:joml:1.10.4'
-    implementation 'org.joml:joml-primitives:1.10.0'
+    //implementation 'org.joml:joml:1.10.4'
+    //implementation 'org.joml:joml-primitives:1.10.0'
 }
 
 Date buildTimeAndDate = new Date()
