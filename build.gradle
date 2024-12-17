@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
     id 'org.openjfx.javafxplugin' version '0.0.7'
     //id 'net.nemerosa.versioning' version '2.8.2'
-    id 'com.jfrog.bintray' version '1.8.4'
+    //id 'com.jfrog.bintray' version '1.8.4'
 }
 
 sourceCompatibility = '11'
@@ -141,7 +141,7 @@ def pomConfig = {
     }
 }
 
-publishing {
+/*publishing {
     publications {
         mavenCustom(MavenPublication) {
             from components.java
@@ -176,4 +176,4 @@ bintray {
         vcsUrl                = 'git@github.com:miho/JCSG.git'
         publicDownloadNumbers = true
     }
-}
+}*/
