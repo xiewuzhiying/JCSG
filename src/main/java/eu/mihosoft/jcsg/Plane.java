@@ -43,7 +43,7 @@ import java.util.List;
  *
  * @author Michael Hoffer &lt;info@michaelhoffer.de&gt;
  */
-class Plane {
+public class Plane {
 
     /**
      * EPSILON is the tolerance used by {@link #splitPolygon(Polygon, java.util.List, java.util.List, java.util.List, java.util.List)
