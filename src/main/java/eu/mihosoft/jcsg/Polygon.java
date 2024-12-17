@@ -76,6 +76,10 @@ public final class Polygon {
         return plane;
     }
 
+    public void setPlane(eu.mihosoft.vvecmath.Plane plane) {
+        this.plane = plane;
+    }
+
     void setStorage(PropertyStorage storage) {
         this.shared = storage;
     }
