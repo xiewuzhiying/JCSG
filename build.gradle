@@ -141,7 +141,7 @@ def pomConfig = {
     }
 }
 
-/*publishing {
+publishing {
     publications {
         mavenCustom(MavenPublication) {
             from components.java
@@ -156,7 +156,7 @@ def pomConfig = {
         }
     }
 }
-
+/*
 if (!project.hasProperty('bintrayUsername')) ext.bintrayUsername = ''
 if (!project.hasProperty('bintrayApiKey')) ext.bintrayApiKey = ''
 
